@@ -1,0 +1,21 @@
+$imagePath: '../Assets';
+* {
+	outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	button {
+		cursor: pointer;
+	}
+}
+
+body {
+	background-color: #f0f0f5;
+}
+
+#root {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px 20px;
+	background: url(#{$imagePath}/HomeBackgroundImage.svg) no-repeat 70% top;
+}
